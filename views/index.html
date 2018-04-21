@@ -1,0 +1,50 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fantastic URL Shortener</title>
+    <meta name="description" content="A fantastic URL shortener">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Fantastic URL Shortener
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Here's how it goes,</p>
+      <p>Type /url/ followed by the url you would like to shorten on to the end of this page's URL and hit enter.</p>
+      <p>
+         For example: https://fantastic-url-shortener.glitch.me/url/https://www.google.com would return a shortened URL for https://www.google.com
+      </p>
+      <p>
+        Copy the shortened URL and paste it into your browser address bar to be automatically redirected to the original URL
+      </p>
+    </main>
+
+    <footer>
+      
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
